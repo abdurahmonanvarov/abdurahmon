@@ -1,11 +1,11 @@
 import Image from "next/image";
-import NotFoundImage from "/public/404.png";
+import NotFoundImage from "/public/404Error.jpg";
 import Link from "next/link";
 import { buttonVariants } from "@/components/ui/button";
 
 export default function NotFound() {
   return (
-    <div className="">
+    <div className="mt-8">
       <div className="container mx-auto px-5 max-w-screen-sm flex flex-col-reverse items-center gap-5 sm:flex-row justify-between">
         <div>
           <h2 className="text-5xl mb-2 animate-slide-top">404</h2>

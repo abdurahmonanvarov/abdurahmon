@@ -124,7 +124,7 @@ export default function Social() {
                 size: "icon",
               })} scale-[80%]`}
               onClick={() => {
-                window?.open("/Mirzo_Ulugbek_rezyume.pdf", "_blank");
+                window?.open("", "_blank");
               }}
             >
               <BackpackIcon />
